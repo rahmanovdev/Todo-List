@@ -1,0 +1,39 @@
+body {
+    background: url('/img/istockphoto-1333254904-612x612.jpg') no-repeat center/cover;
+    height: 100vh;
+
+}
+
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+.round{
+        background: #f4a700f1;
+        color: white;
+        padding: 6px;
+        border-radius: 45%;
+  
+}
+
+span {
+    font-size: 18px;
+    font-family: 300;
+    color: gray;
+}
+
+
+li h6 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 400;
+    
+}
