@@ -13,7 +13,7 @@ function view (){
 let tasks = JSON.parse(localStorage.getItem('task')) || []
 ul.innerHTML = "";
 tasks.map(el => {
-    ul.innerHTML += `<li class="list-group-item d-flex
+    ul.innerHTML += `<li class="li list-group-item d-flex
      justify-content-between align-items-center col-6 mx-auto"><h5 class="round">${el.name[0]} ${el.surname[0]}</h5>
      <h6><span>name: </span>${el.name}</h6> <h6><span>surname: </span>${el.surname}</h6>
      <button class="del-btn btn btn-danger">delete</button></li>`
